@@ -28,7 +28,7 @@ class MakeExperiment(object):
                 "max-concurrent": self.distributed_concurrent,
                 "max-finished-jobs": 1000
             }
-        
+
         self.d['tasks'] = {
             self.experiment_name: {
                 'type': "OBJECTIVE",
@@ -39,7 +39,7 @@ class MakeExperiment(object):
         }
         self.d['tasks'][self.experiment_name]['resources'] =\
             self.d['resources'].keys()
-        
+
         self.d['variables'] = {}
         self.d['description'] = self.description
 
