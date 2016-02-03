@@ -1,0 +1,375 @@
+== Info: Rebuilt URL to: dimalik/
+== Info: Hostname was NOT found in DNS cache
+== Info:   Trying 81.200.64.50...
+== Info: Connected to dimalik (81.200.64.50) port 80 (#0)
+=> Send header, 140 bytes (0x8c)
+0000: 50 4f 53 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d POST / HTTP/1.1.
+0010: 0a 55 73 65 72 2d 41 67 65 6e 74 3a 20 63 75 72 .User-Agent: cur
+0020: 6c 2f 37 2e 33 35 2e 30 0d 0a 48 6f 73 74 3a 20 l/7.35.0..Host: 
+0030: 64 69 6d 61 6c 69 6b 0d 0a 41 63 63 65 70 74 3a dimalik..Accept:
+0040: 20 2a 2f 2a 0d 0a 43 6f 6e 74 65 6e 74 2d 4c 65  */*..Content-Le
+0050: 6e 67 74 68 3a 20 39 0d 0a 43 6f 6e 74 65 6e 74 ngth: 9..Content
+0060: 2d 54 79 70 65 3a 20 61 70 70 6c 69 63 61 74 69 -Type: applicati
+0070: 6f 6e 2f 78 2d 77 77 77 2d 66 6f 72 6d 2d 75 72 on/x-www-form-ur
+0080: 6c 65 6e 63 6f 64 65 64 0d 0a 0d 0a             lencoded....
+=> Send data, 9 bytes (0x9)
+0000: 27 7b 22 6e 61 6d 65 22 3a                      '{"name":
+== Info: upload completely sent off: 9 out of 9 bytes
+== Info: Empty reply from server
+== Info: Connection #0 to host dimalik left intact
+== Info: Hostname was NOT found in DNS cache
+== Info:   Trying 192.30.252.124...
+== Info: Connected to api.github.com (192.30.252.124) port 443 (#1)
+== Info: successfully set certificate verify locations:
+== Info:   CAfile: none
+  CApath: /etc/ssl/certs
+== Info: SSLv3, TLS handshake, Client hello (1):
+=> Send SSL data, 291 bytes (0x123)
+0000: 01 00 01 1f 03 03 9d 1f 51 e4 01 d7 56 df 95 04 ........Q...V...
+0010: 1d 5c d4 b2 f7 55 13 62 3e fd 6a bf b3 cf a8 ee .\...U.b>.j.....
+0020: 3a 58 05 4b b1 69 00 00 76 c0 30 c0 2c c0 28 c0 :X.K.i..v.0.,.(.
+0030: 24 c0 14 c0 0a 00 a3 00 9f 00 6b 00 6a 00 39 00 $.........k.j.9.
+0040: 38 00 88 00 87 c0 32 c0 2e c0 2a c0 26 c0 0f c0 8.....2...*.&...
+0050: 05 00 9d 00 3d 00 35 00 84 c0 12 c0 08 00 16 00 ....=.5.........
+0060: 13 c0 0d c0 03 00 0a c0 2f c0 2b c0 27 c0 23 c0 ......../.+.'.#.
+0070: 13 c0 09 00 a2 00 9e 00 67 00 40 00 33 00 32 00 ........g.@.3.2.
+0080: 9a 00 99 00 45 00 44 c0 31 c0 2d c0 29 c0 25 c0 ....E.D.1.-.).%.
+0090: 0e c0 04 00 9c 00 3c 00 2f 00 96 00 41 00 ff 01 ......<./...A...
+00a0: 00 00 80 00 00 00 13 00 11 00 00 0e 61 70 69 2e ............api.
+00b0: 67 69 74 68 75 62 2e 63 6f 6d 00 0b 00 04 03 00 github.com......
+00c0: 01 02 00 0a 00 34 00 32 00 0e 00 0d 00 19 00 0b .....4.2........
+00d0: 00 0c 00 18 00 09 00 0a 00 16 00 17 00 08 00 06 ................
+00e0: 00 07 00 14 00 15 00 04 00 05 00 12 00 13 00 01 ................
+00f0: 00 02 00 03 00 0f 00 10 00 11 00 0d 00 20 00 1e ............. ..
+0100: 06 01 06 02 06 03 05 01 05 02 05 03 04 01 04 02 ................
+0110: 04 03 03 01 03 02 03 03 02 01 02 02 02 03 00 0f ................
+0120: 00 01 01                                        ...
+== Info: SSLv3, TLS handshake, Server hello (2):
+<= Recv SSL data, 98 bytes (0x62)
+0000: 02 00 00 5e 03 03 56 b1 5d fc 47 6c 0c 34 84 09 ...^..V.].Gl.4..
+0010: 1b bc e3 81 c1 65 35 53 52 42 03 5e 60 76 c7 30 .....e5SRB.^`v.0
+0020: 56 49 21 7f 03 48 20 c0 10 d7 c2 63 d1 db 6e 5e VI!.H ....c..n^
+0030: 73 5b 9f 53 40 6b b4 0b 91 82 6e 52 27 8a 43 d8 s[.S@k....nR'.C.
+0040: 35 1a 0b 96 a1 bc 03 c0 2f 00 00 16 00 00 00 00 5......./.......
+0050: ff 01 00 01 00 00 0b 00 04 03 00 01 02 00 0f 00 ................
+0060: 01 01                                           ..
+== Info: SSLv3, TLS handshake, CERT (11):
+<= Recv SSL data, 2577 bytes (0xa11)
+0000: 0b 00 0a 0d 00 0a 0a 00 05 4f 30 82 05 4b 30 82 .........O0..K0.
+0010: 04 33 a0 03 02 01 02 02 10 0d 70 42 39 63 02 c6 .3........pB9c..
+0020: 26 bc 86 d5 cf cd 50 3b ef 30 0d 06 09 2a 86 48 &.....P;.0...*.H
+0030: 86 f7 0d 01 01 0b 05 00 30 70 31 0b 30 09 06 03 ........0p1.0...
+0040: 55 04 06 13 02 55 53 31 15 30 13 06 03 55 04 0a U....US1.0...U..
+0050: 13 0c 44 69 67 69 43 65 72 74 20 49 6e 63 31 19 ..DigiCert Inc1.
+0060: 30 17 06 03 55 04 0b 13 10 77 77 77 2e 64 69 67 0...U....www.dig
+0070: 69 63 65 72 74 2e 63 6f 6d 31 2f 30 2d 06 03 55 icert.com1/0-..U
+0080: 04 03 13 26 44 69 67 69 43 65 72 74 20 53 48 41 ...&DigiCert SHA
+0090: 32 20 48 69 67 68 20 41 73 73 75 72 61 6e 63 65 2 High Assurance
+00a0: 20 53 65 72 76 65 72 20 43 41 30 1e 17 0d 31 34  Server CA0...14
+00b0: 30 34 30 38 30 30 30 30 30 30 5a 17 0d 31 37 30 0408000000Z..170
+00c0: 34 31 32 31 32 30 30 30 30 5a 30 68 31 0b 30 09 412120000Z0h1.0.
+00d0: 06 03 55 04 06 13 02 55 53 31 13 30 11 06 03 55 ..U....US1.0...U
+00e0: 04 08 13 0a 43 61 6c 69 66 6f 72 6e 69 61 31 16 ....California1.
+00f0: 30 14 06 03 55 04 07 13 0d 53 61 6e 20 46 72 61 0...U....San Fra
+0100: 6e 63 69 73 63 6f 31 15 30 13 06 03 55 04 0a 13 ncisco1.0...U...
+0110: 0c 47 69 74 48 75 62 2c 20 49 6e 63 2e 31 15 30 .GitHub, Inc.1.0
+0120: 13 06 03 55 04 03 0c 0c 2a 2e 67 69 74 68 75 62 ...U....*.github
+0130: 2e 63 6f 6d 30 82 01 22 30 0d 06 09 2a 86 48 86 .com0.."0...*.H.
+0140: f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a ............0...
+0150: 02 82 01 01 00 de e9 da 4c ff 02 5d e2 bb 8b e4 ........L..]....
+0160: 4e 10 8f f8 2b f9 ff f1 64 90 c3 22 b0 80 81 8c N...+...d.."....
+0170: 8b b4 15 cb 56 76 74 19 e1 31 bb 9b a5 8c 2d d7 ....Vvt..1....-.
+0180: ff 4f 2f a6 2d 5f e1 12 45 79 9b 06 26 23 cb dc .O/.-_..Ey..&#..
+0190: fd 16 6b af 92 f8 b1 87 5d 9a 0a 57 27 f1 9c 16 ..k.....]..W'...
+01a0: 69 de 31 e3 bb a0 ea 41 e4 54 eb 98 33 70 39 d6 i.1....A.T..3p9.
+01b0: 00 da f2 54 8b 84 f8 4f 49 3e f5 ae c7 0a ef f6 ...T...OI>......
+01c0: 76 ae 63 64 34 ac 7d f7 ec d5 60 9b 5f 64 91 da v.cd4.}...`._d..
+01d0: 4c 9a 7e ad d6 a4 b8 9a a0 39 eb b8 c8 1f 83 ac L.~......9......
+01e0: 20 d8 f3 28 39 73 46 6b 56 80 48 04 6b 0f 52 a3  ..(9sFkV.H.k.R.
+01f0: 57 8d b8 71 5d 1f ac 60 30 6c a0 9d ec 46 c8 29 W..q]..`0l...F.)
+0200: 89 8c f6 67 5f d5 bc 66 53 03 e5 56 f4 b9 7f 78 ...g_..fS..V..x
+0210: f3 9a 95 14 46 f5 6e 25 61 13 f3 a4 74 24 b5 1e ....F.n%a...t$..
+0220: 41 18 e2 61 9f 4c 63 e3 04 17 8c 36 e0 fc c3 e8 A..a.Lc....6....
+0230: 7e 9a 25 a2 da 0c 53 aa 43 c2 c2 cf b5 3b bd f7 ~.%...S.C....;..
+0240: ce a3 fe d6 82 b7 01 80 8a e8 c2 8b 6f 9a c1 2f ............o../
+0250: 78 4f 2b b6 49 02 03 01 00 01 a3 82 01 e7 30 82 xO+.I.........0.
+0260: 01 e3 30 1f 06 03 55 1d 23 04 18 30 16 80 14 51 ..0...U.#..0...Q
+0270: 68 ff 90 af 02 07 75 3c cc d9 65 64 62 a2 12 b8 h.....u<..edb...
+0280: 59 72 3b 30 1d 06 03 55 1d 0e 04 16 04 14 1e 5b Yr;0...U.......[
+0290: ad 21 7a d4 56 03 91 68 b5 06 25 f5 97 e3 49 7a .!z.V..h..%...Iz
+02a0: 0c 2a 30 23 06 03 55 1d 11 04 1c 30 1a 82 0c 2a .*0#..U....0...*
+02b0: 2e 67 69 74 68 75 62 2e 63 6f 6d 82 0a 67 69 74 .github.com..git
+02c0: 68 75 62 2e 63 6f 6d 30 0e 06 03 55 1d 0f 01 01 hub.com0...U....
+02d0: ff 04 04 03 02 05 a0 30 1d 06 03 55 1d 25 04 16 .......0...U.%..
+02e0: 30 14 06 08 2b 06 01 05 05 07 03 01 06 08 2b 06 0...+.........+.
+02f0: 01 05 05 07 03 02 30 75 06 03 55 1d 1f 04 6e 30 ......0u..U...n0
+0300: 6c 30 34 a0 32 a0 30 86 2e 68 74 74 70 3a 2f 2f l04.2.0..http://
+0310: 63 72 6c 33 2e 64 69 67 69 63 65 72 74 2e 63 6f crl3.digicert.co
+0320: 6d 2f 73 68 61 32 2d 68 61 2d 73 65 72 76 65 72 m/sha2-ha-server
+0330: 2d 67 31 2e 63 72 6c 30 34 a0 32 a0 30 86 2e 68 -g1.crl04.2.0..h
+0340: 74 74 70 3a 2f 2f 63 72 6c 34 2e 64 69 67 69 63 ttp://crl4.digic
+0350: 65 72 74 2e 63 6f 6d 2f 73 68 61 32 2d 68 61 2d ert.com/sha2-ha-
+0360: 73 65 72 76 65 72 2d 67 31 2e 63 72 6c 30 42 06 server-g1.crl0B.
+0370: 03 55 1d 20 04 3b 30 39 30 37 06 09 60 86 48 01 .U. .;0907..`.H.
+0380: 86 fd 6c 01 01 30 2a 30 28 06 08 2b 06 01 05 05 ..l..0*0(..+....
+0390: 07 02 01 16 1c 68 74 74 70 73 3a 2f 2f 77 77 77 .....https://www
+03a0: 2e 64 69 67 69 63 65 72 74 2e 63 6f 6d 2f 43 50 .digicert.com/CP
+03b0: 53 30 81 83 06 08 2b 06 01 05 05 07 01 01 04 77 S0....+........w
+03c0: 30 75 30 24 06 08 2b 06 01 05 05 07 30 01 86 18 0u0$..+.....0...
+03d0: 68 74 74 70 3a 2f 2f 6f 63 73 70 2e 64 69 67 69 http://ocsp.digi
+03e0: 63 65 72 74 2e 63 6f 6d 30 4d 06 08 2b 06 01 05 cert.com0M..+...
+03f0: 05 07 30 02 86 41 68 74 74 70 3a 2f 2f 63 61 63 ..0..Ahttp://cac
+0400: 65 72 74 73 2e 64 69 67 69 63 65 72 74 2e 63 6f erts.digicert.co
+0410: 6d 2f 44 69 67 69 43 65 72 74 53 48 41 32 48 69 m/DigiCertSHA2Hi
+0420: 67 68 41 73 73 75 72 61 6e 63 65 53 65 72 76 65 ghAssuranceServe
+0430: 72 43 41 2e 63 72 74 30 0c 06 03 55 1d 13 01 01 rCA.crt0...U....
+0440: ff 04 02 30 00 30 0d 06 09 2a 86 48 86 f7 0d 01 ...0.0...*.H....
+0450: 01 0b 05 00 03 82 01 01 00 17 d8 f6 7d bc 66 40 ............}.f@
+0460: ae 1a 70 ca 0d 79 64 24 82 c8 b7 3b 8a a9 16 fe ..p..yd$...;....
+0470: 51 e3 de ad e3 af ea 10 e9 99 54 bb a4 0b fe 05 Q.........T.....
+0480: 2c 07 98 df 5d 4b d4 a0 bb a4 5c 1f c7 08 27 5d ,...]K....\...']
+0490: e3 5a db 33 bb 3e 80 b5 85 29 a6 8f a5 c7 4b d1 .Z.3.>...)....K.
+04a0: d6 4b 99 c4 f6 47 cb e3 cf 75 5d b0 34 ac 22 81 .K...G...u].4.".
+04b0: 5c 7b ff 40 6e dd 4e ce 39 e1 a1 2a ae 94 40 32 \{.@n.N.9..*..@2
+04c0: 09 b4 1c 83 25 9d 8c 87 1b ac 2e fe fb cc 47 51 ....%.........GQ
+04d0: 3c ed 34 43 10 56 cc 4b f5 c9 60 5e 26 7b 1c 2c <.4C.V.K..`^&{.,
+04e0: a1 a8 a1 d5 b2 b8 65 5a 80 97 80 94 1f 0a a7 04 ......eZ........
+04f0: 3d d7 aa ee cb f0 89 65 ce ef a5 79 bb 9d ac d7 =......e...y....
+0500: 9b cc f7 38 a2 bc 7c 58 10 08 41 f4 c5 83 da f2 ...8..|X..A.....
+0510: 3d 4e 12 b1 46 18 95 a8 7b 4a 03 e0 d9 04 41 65 =N..F...{J....Ae
+0520: d7 60 34 90 a8 11 73 7a 02 34 77 ff 7f 0a 7f 4a .`4...sz.4w..J
+0530: 14 68 23 0b d9 02 6a 19 f9 66 1b df 11 26 dc 38 .h#...j..f...&.8
+0540: bc d4 c0 78 38 7d 81 87 52 42 5e 3e 32 2f 42 6f ...x8}..RB^>2/Bo
+0550: 3f 66 c3 d6 91 83 17 f3 e4 00 04 b5 30 82 04 b1 ?f..........0...
+0560: 30 82 03 99 a0 03 02 01 02 02 10 04 e1 e7 a4 dc 0...............
+0570: 5c f2 f3 6d c0 2b 42 b8 5d 15 9f 30 0d 06 09 2a \..m.+B.]..0...*
+0580: 86 48 86 f7 0d 01 01 0b 05 00 30 6c 31 0b 30 09 .H........0l1.0.
+0590: 06 03 55 04 06 13 02 55 53 31 15 30 13 06 03 55 ..U....US1.0...U
+05a0: 04 0a 13 0c 44 69 67 69 43 65 72 74 20 49 6e 63 ....DigiCert Inc
+05b0: 31 19 30 17 06 03 55 04 0b 13 10 77 77 77 2e 64 1.0...U....www.d
+05c0: 69 67 69 63 65 72 74 2e 63 6f 6d 31 2b 30 29 06 igicert.com1+0).
+05d0: 03 55 04 03 13 22 44 69 67 69 43 65 72 74 20 48 .U..."DigiCert H
+05e0: 69 67 68 20 41 73 73 75 72 61 6e 63 65 20 45 56 igh Assurance EV
+05f0: 20 52 6f 6f 74 20 43 41 30 1e 17 0d 31 33 31 30  Root CA0...1310
+0600: 32 32 31 32 30 30 30 30 5a 17 0d 32 38 31 30 32 22120000Z..28102
+0610: 32 31 32 30 30 30 30 5a 30 70 31 0b 30 09 06 03 2120000Z0p1.0...
+0620: 55 04 06 13 02 55 53 31 15 30 13 06 03 55 04 0a U....US1.0...U..
+0630: 13 0c 44 69 67 69 43 65 72 74 20 49 6e 63 31 19 ..DigiCert Inc1.
+0640: 30 17 06 03 55 04 0b 13 10 77 77 77 2e 64 69 67 0...U....www.dig
+0650: 69 63 65 72 74 2e 63 6f 6d 31 2f 30 2d 06 03 55 icert.com1/0-..U
+0660: 04 03 13 26 44 69 67 69 43 65 72 74 20 53 48 41 ...&DigiCert SHA
+0670: 32 20 48 69 67 68 20 41 73 73 75 72 61 6e 63 65 2 High Assurance
+0680: 20 53 65 72 76 65 72 20 43 41 30 82 01 22 30 0d  Server CA0.."0.
+0690: 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 ..*.H...........
+06a0: 0f 00 30 82 01 0a 02 82 01 01 00 b6 e0 2f c2 24 ..0........../.$
+06b0: 06 c8 6d 04 5f d7 ef 0a 64 06 b2 7d 22 26 65 16 ..m._...d..}"&e.
+06c0: ae 42 40 9b ce dc 9f 9f 76 07 3e c3 30 55 87 19 .B@.....v.>.0U..
+06d0: b9 4f 94 0e 5a 94 1f 55 56 b4 c2 02 2a af d0 98 .O..Z..UV...*...
+06e0: ee 0b 40 d7 c4 d0 3b 72 c8 14 9e ef 90 b1 11 a9 ..@...;r........
+06f0: ae d2 c8 b8 43 3a d9 0b 0b d5 d5 95 f5 40 af c8 ....C:.......@..
+0700: 1d ed 4d 9c 5f 57 b7 86 50 68 99 f5 8a da d2 c7 ..M._W..Ph......
+0710: 05 1f a8 97 c9 dc a4 b1 82 84 2d c6 ad a5 9c c7 ..........-.....
+0720: 19 82 a6 85 0f 5e 44 58 2a 37 8f fd 35 f1 0b 08 .....^DX*7..5...
+0730: 27 32 5a f5 bb 8b 9e a4 bd 51 d0 27 e2 dd 3b 42 '2Z......Q.'..;B
+0740: 33 a3 05 28 c4 bb 28 cc 9a ac 2b 23 0d 78 c6 7b 3..(..(...+#.x.{
+0750: e6 5e 71 b7 4a 3e 08 fb 81 b7 16 16 a1 9d 23 12 .^q.J>........#.
+0760: 4d e5 d7 92 08 ac 75 a4 9c ba cd 17 b2 1e 44 35 M.....u.......D5
+0770: 65 7f 53 25 39 d1 1c 0a 9a 63 1b 19 92 74 68 0a eS%9....c...th.
+0780: 37 c2 c2 52 48 cb 39 5a a2 b6 e1 5d c1 dd a0 20 7..RH.9Z...]... 
+0790: b8 21 a2 93 26 6f 14 4a 21 41 c7 ed 6d 9b f2 48 .!..&o.J!A..m..H
+07a0: 2f f3 03 f5 a2 68 92 53 2f 5e e3 02 03 01 00 01 /....h.S/^......
+07b0: a3 82 01 49 30 82 01 45 30 12 06 03 55 1d 13 01 ...I0..E0...U...
+07c0: 01 ff 04 08 30 06 01 01 ff 02 01 00 30 0e 06 03 ....0.......0...
+07d0: 55 1d 0f 01 01 ff 04 04 03 02 01 86 30 1d 06 03 U...........0...
+07e0: 55 1d 25 04 16 30 14 06 08 2b 06 01 05 05 07 03 U.%..0...+......
+07f0: 01 06 08 2b 06 01 05 05 07 03 02 30 34 06 08 2b ...+.......04..+
+0800: 06 01 05 05 07 01 01 04 28 30 26 30 24 06 08 2b ........(0&0$..+
+0810: 06 01 05 05 07 30 01 86 18 68 74 74 70 3a 2f 2f .....0...http://
+0820: 6f 63 73 70 2e 64 69 67 69 63 65 72 74 2e 63 6f ocsp.digicert.co
+0830: 6d 30 4b 06 03 55 1d 1f 04 44 30 42 30 40 a0 3e m0K..U...D0B0@.>
+0840: a0 3c 86 3a 68 74 74 70 3a 2f 2f 63 72 6c 34 2e .<.:http://crl4.
+0850: 64 69 67 69 63 65 72 74 2e 63 6f 6d 2f 44 69 67 digicert.com/Dig
+0860: 69 43 65 72 74 48 69 67 68 41 73 73 75 72 61 6e iCertHighAssuran
+0870: 63 65 45 56 52 6f 6f 74 43 41 2e 63 72 6c 30 3d ceEVRootCA.crl0=
+0880: 06 03 55 1d 20 04 36 30 34 30 32 06 04 55 1d 20 ..U. .60402..U. 
+0890: 00 30 2a 30 28 06 08 2b 06 01 05 05 07 02 01 16 .0*0(..+........
+08a0: 1c 68 74 74 70 73 3a 2f 2f 77 77 77 2e 64 69 67 .https://www.dig
+08b0: 69 63 65 72 74 2e 63 6f 6d 2f 43 50 53 30 1d 06 icert.com/CPS0..
+08c0: 03 55 1d 0e 04 16 04 14 51 68 ff 90 af 02 07 75 .U......Qh.....u
+08d0: 3c cc d9 65 64 62 a2 12 b8 59 72 3b 30 1f 06 03 <..edb...Yr;0...
+08e0: 55 1d 23 04 18 30 16 80 14 b1 3e c3 69 03 f8 bf U.#..0....>.i...
+08f0: 47 01 d4 98 26 1a 08 02 ef 63 64 2b c3 30 0d 06 G...&....cd+.0..
+0900: 09 2a 86 48 86 f7 0d 01 01 0b 05 00 03 82 01 01 .*.H............
+0910: 00 18 8a 95 89 03 e6 6d df 5c fc 1d 68 ea 4a 8f .......m.\..h.J.
+0920: 83 d6 51 2f 8d 6b 44 16 9e ac 63 f5 d2 6e 6c 84 ..Q/.kD...c..nl.
+0930: 99 8b aa 81 71 84 5b ed 34 4e b0 b7 79 92 29 cc ....q.[.4N..y.).
+0940: 2d 80 6a f0 8e 20 e1 79 a4 fe 03 47 13 ea f5 86 -.j.. .y...G....
+0950: ca 59 71 7d f4 04 96 6b d3 59 58 3d fe d3 31 25 .Yq}...k.YX=..1%
+0960: 5c 18 38 84 a3 e6 9f 82 fd 8c 5b 98 31 4e cd 78 \.8.......[.1N.x
+0970: 9e 1a fd 85 cb 49 aa f2 27 8b 99 72 fc 3e aa d5 .....I..'..r.>..
+0980: 41 0b da d5 36 a1 bf 1c 6e 47 49 7f 5e d9 48 7c A...6...nGI^.H|
+0990: 03 d9 fd 8b 49 a0 98 26 42 40 eb d6 92 11 a4 64 ....I..&B@.....d
+09a0: 0a 57 54 c4 f5 1d d6 02 5e 6b ac ee c4 80 9a 12 .WT.....^k......
+09b0: 72 fa 56 93 d7 ff bf 30 85 06 30 bf 0b 7f 4e ff r.V....0..0..N.
+09c0: 57 05 9d 24 ed 85 c3 2b fb a6 75 a8 ac 2d 16 ef W..$...+..u..-..
+09d0: 7d 79 27 b2 eb c2 9d 0b 07 ea aa 85 d3 01 a3 20 }y'............ 
+09e0: 28 41 59 43 28 d2 81 e3 aa f6 ec 7b 3b 77 b6 40 (AYC(......{;w.@
+09f0: 62 80 05 41 45 01 ef 17 06 3e de c0 33 9b 67 d3 b..AE....>..3.g.
+0a00: 61 2e 72 87 e4 69 fc 12 00 57 40 1e 70 f5 1e c9 a.r..i...W@.p...
+0a10: b4                                              .
+== Info: SSLv3, TLS handshake, Server key exchange (12):
+<= Recv SSL data, 333 bytes (0x14d)
+0000: 0c 00 01 49 03 00 17 41 04 5b fc 2d 82 34 58 02 ...I...A.[.-.4X.
+0010: 29 25 de b0 24 91 9c d4 37 bb f0 7a fe 1e 71 91 )%..$...7..z..q.
+0020: 23 46 03 c6 57 58 f9 94 03 a5 0f 8f 0a 1c 01 cf #F..WX..........
+0030: 6d 30 cf 19 b0 27 8b 1d 4c 45 77 0f 3c 54 6d f9 m0...'..LEw.<Tm.
+0040: 85 87 46 27 5d 62 e8 8c f9 06 01 01 00 cb aa 7e ..F']b.........~
+0050: df 0d 09 4a 5b 83 0d 8b b7 a1 b8 ce 2a 0e b6 fc ...J[.......*...
+0060: 6b e2 18 e7 41 c5 21 83 9c 51 a7 28 e7 0b ae 26 k...A.!..Q.(...&
+0070: 69 f1 17 a3 2f d4 21 25 f5 fa 2a 11 2b dc 8a 49 i.../.!%..*.+..I
+0080: ec 93 4f 07 39 88 ea 18 49 c5 55 5e 41 e0 ec 91 ..O.9...I.U^A...
+0090: b6 22 51 8a fa a4 e6 3f 52 7e a6 14 ea d6 5c 7f ."Q....?R~....\
+00a0: 58 1e 32 1f 59 09 de 71 ab 0c a4 fe 3c 4f b8 65 X.2.Y..q....<O.e
+00b0: a3 e8 87 cb 36 c2 63 cc 17 5d 63 fc ef ae 24 01 ....6.c..]c...$.
+00c0: b1 dd 71 a3 65 9c 33 95 7a 3a ef de 7f 3f 11 63 ..q.e.3.z:..?.c
+00d0: a1 05 51 ff d9 a9 fc d8 29 e6 27 d5 14 c3 ff 25 ..Q.....).'....%
+00e0: b3 00 59 52 87 70 a0 cb 2f 58 c6 30 cf 58 17 3f ..YR.p../X.0.X.?
+00f0: e5 98 91 2e 8f 5f 54 77 0e 39 04 c4 8b 39 15 1f ....._Tw.9...9..
+0100: 1b 58 ed ee 65 e3 ac dd 36 85 45 15 d0 9f 3b 02 .X..e...6.E...;.
+0110: c8 c1 98 5c 7a 43 53 d0 04 e3 dc b7 73 03 6e 29 ...\zCS.....s.n)
+0120: 29 13 63 21 05 aa 21 4f ed 6a 02 7c 09 19 ba 23 ).c!..!O.j.|...#
+0130: f6 7c a3 2b ce 56 6c 56 37 ba ed e8 37 c6 54 e0 .|.+.VlV7...7.T.
+0140: 62 b7 f7 33 35 c8 78 4f 03 45 43 81 1b          b..35.xO.EC..
+== Info: SSLv3, TLS handshake, Server finished (14):
+<= Recv SSL data, 4 bytes (0x4)
+0000: 0e 00 00 00                                     ....
+== Info: SSLv3, TLS handshake, Client key exchange (16):
+=> Send SSL data, 70 bytes (0x46)
+0000: 10 00 00 42 41 04 ac 8c cf 90 21 64 41 d3 c4 c7 ...BA.....!dA...
+0010: 7a 5d 4f 7b 98 bb a7 ef b2 4e e5 12 c4 32 d0 ae z]O{.....N...2..
+0020: 64 c9 ac 91 13 81 d3 bd a2 d3 0a 12 e7 ad af d3 d...............
+0030: ea 6c f9 3c b9 88 f6 48 3b a6 62 73 9f fe cd 37 .l.<...H;.bs...7
+0040: 1d dc ec 26 90 26                               ...&.&
+== Info: SSLv3, TLS change cipher, Client hello (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: 01                                              .
+== Info: SSLv3, TLS handshake, Finished (20):
+=> Send SSL data, 16 bytes (0x10)
+0000: 14 00 00 0c 6d 4e c4 55 75 f0 4a 7c be bb 66 98 ....mN.Uu.J|..f.
+== Info: SSLv3, TLS change cipher, Client hello (1):
+<= Recv SSL data, 1 bytes (0x1)
+0000: 01                                              .
+== Info: SSLv3, TLS handshake, Finished (20):
+<= Recv SSL data, 16 bytes (0x10)
+0000: 14 00 00 0c 11 2e 48 8b 6d be b2 26 d8 3d 79 67 ......H.m..&.=yg
+== Info: SSL connection using ECDHE-RSA-AES128-GCM-SHA256
+== Info: Server certificate:
+== Info: 	 subject: C=US; ST=California; L=San Francisco; O=GitHub, Inc.; CN=*.github.com
+== Info: 	 start date: 2014-04-08 00:00:00 GMT
+== Info: 	 expire date: 2017-04-12 12:00:00 GMT
+== Info: 	 subjectAltName: api.github.com matched
+== Info: 	 issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+== Info: 	 SSL certificate verify ok.
+=> Send header, 157 bytes (0x9d)
+0000: 50 4f 53 54 20 2f 75 73 65 72 2f 72 65 70 6f 73 POST /user/repos
+0010: 20 48 54 54 50 2f 31 2e 31 0d 0a 55 73 65 72 2d  HTTP/1.1..User-
+0020: 41 67 65 6e 74 3a 20 63 75 72 6c 2f 37 2e 33 35 Agent: curl/7.35
+0030: 2e 30 0d 0a 48 6f 73 74 3a 20 61 70 69 2e 67 69 .0..Host: api.gi
+0040: 74 68 75 62 2e 63 6f 6d 0d 0a 41 63 63 65 70 74 thub.com..Accept
+0050: 3a 20 2a 2f 2a 0d 0a 43 6f 6e 74 65 6e 74 2d 4c : */*..Content-L
+0060: 65 6e 67 74 68 3a 20 39 0d 0a 43 6f 6e 74 65 6e ength: 9..Conten
+0070: 74 2d 54 79 70 65 3a 20 61 70 70 6c 69 63 61 74 t-Type: applicat
+0080: 69 6f 6e 2f 78 2d 77 77 77 2d 66 6f 72 6d 2d 75 ion/x-www-form-u
+0090: 72 6c 65 6e 63 6f 64 65 64 0d 0a 0d 0a          rlencoded....
+=> Send data, 9 bytes (0x9)
+0000: 27 7b 22 6e 61 6d 65 22 3a                      '{"name":
+== Info: upload completely sent off: 9 out of 9 bytes
+<= Recv header, 27 bytes (0x1b)
+0000: 48 54 54 50 2f 31 2e 31 20 34 30 31 20 55 6e 61 HTTP/1.1 401 Una
+0010: 75 74 68 6f 72 69 7a 65 64 0d 0a                uthorized..
+== Info: Server GitHub.com is not blacklisted
+<= Recv header, 20 bytes (0x14)
+0000: 53 65 72 76 65 72 3a 20 47 69 74 48 75 62 2e 63 Server: GitHub.c
+0010: 6f 6d 0d 0a                                     om..
+<= Recv header, 37 bytes (0x25)
+0000: 44 61 74 65 3a 20 57 65 64 2c 20 30 33 20 46 65 Date: Wed, 03 Fe
+0010: 62 20 32 30 31 36 20 30 31 3a 35 35 3a 30 38 20 b 2016 01:55:08 
+0020: 47 4d 54 0d 0a                                  GMT..
+<= Recv header, 47 bytes (0x2f)
+0000: 43 6f 6e 74 65 6e 74 2d 54 79 70 65 3a 20 61 70 Content-Type: ap
+0010: 70 6c 69 63 61 74 69 6f 6e 2f 6a 73 6f 6e 3b 20 plication/json; 
+0020: 63 68 61 72 73 65 74 3d 75 74 66 2d 38 0d 0a    charset=utf-8..
+<= Recv header, 21 bytes (0x15)
+0000: 43 6f 6e 74 65 6e 74 2d 4c 65 6e 67 74 68 3a 20 Content-Length: 
+0010: 31 30 31 0d 0a                                  101..
+<= Recv header, 26 bytes (0x1a)
+0000: 53 74 61 74 75 73 3a 20 34 30 31 20 55 6e 61 75 Status: 401 Unau
+0010: 74 68 6f 72 69 7a 65 64 0d 0a                   thorized..
+<= Recv header, 23 bytes (0x17)
+0000: 58 2d 52 61 74 65 4c 69 6d 69 74 2d 4c 69 6d 69 X-RateLimit-Limi
+0010: 74 3a 20 36 30 0d 0a                            t: 60..
+<= Recv header, 27 bytes (0x1b)
+0000: 58 2d 52 61 74 65 4c 69 6d 69 74 2d 52 65 6d 61 X-RateLimit-Rema
+0010: 69 6e 69 6e 67 3a 20 35 37 0d 0a                ining: 57..
+<= Recv header, 31 bytes (0x1f)
+0000: 58 2d 52 61 74 65 4c 69 6d 69 74 2d 52 65 73 65 X-RateLimit-Rese
+0010: 74 3a 20 31 34 35 34 34 36 36 30 30 35 0d 0a    t: 1454466005..
+<= Recv header, 32 bytes (0x20)
+0000: 58 2d 47 69 74 48 75 62 2d 4d 65 64 69 61 2d 54 X-GitHub-Media-T
+0010: 79 70 65 3a 20 67 69 74 68 75 62 2e 76 33 0d 0a ype: github.v3..
+<= Recv header, 40 bytes (0x28)
+0000: 41 63 63 65 73 73 2d 43 6f 6e 74 72 6f 6c 2d 41 Access-Control-A
+0010: 6c 6c 6f 77 2d 43 72 65 64 65 6e 74 69 61 6c 73 llow-Credentials
+0020: 3a 20 74 72 75 65 0d 0a                         : true..
+<= Recv header, 176 bytes (0xb0)
+0000: 41 63 63 65 73 73 2d 43 6f 6e 74 72 6f 6c 2d 45 Access-Control-E
+0010: 78 70 6f 73 65 2d 48 65 61 64 65 72 73 3a 20 45 xpose-Headers: E
+0020: 54 61 67 2c 20 4c 69 6e 6b 2c 20 58 2d 47 69 74 Tag, Link, X-Git
+0030: 48 75 62 2d 4f 54 50 2c 20 58 2d 52 61 74 65 4c Hub-OTP, X-RateL
+0040: 69 6d 69 74 2d 4c 69 6d 69 74 2c 20 58 2d 52 61 imit-Limit, X-Ra
+0050: 74 65 4c 69 6d 69 74 2d 52 65 6d 61 69 6e 69 6e teLimit-Remainin
+0060: 67 2c 20 58 2d 52 61 74 65 4c 69 6d 69 74 2d 52 g, X-RateLimit-R
+0070: 65 73 65 74 2c 20 58 2d 4f 41 75 74 68 2d 53 63 eset, X-OAuth-Sc
+0080: 6f 70 65 73 2c 20 58 2d 41 63 63 65 70 74 65 64 opes, X-Accepted
+0090: 2d 4f 41 75 74 68 2d 53 63 6f 70 65 73 2c 20 58 -OAuth-Scopes, X
+00a0: 2d 50 6f 6c 6c 2d 49 6e 74 65 72 76 61 6c 0d 0a -Poll-Interval..
+<= Recv header, 32 bytes (0x20)
+0000: 41 63 63 65 73 73 2d 43 6f 6e 74 72 6f 6c 2d 41 Access-Control-A
+0010: 6c 6c 6f 77 2d 4f 72 69 67 69 6e 3a 20 2a 0d 0a llow-Origin: *..
+<= Recv header, 45 bytes (0x2d)
+0000: 43 6f 6e 74 65 6e 74 2d 53 65 63 75 72 69 74 79 Content-Security
+0010: 2d 50 6f 6c 69 63 79 3a 20 64 65 66 61 75 6c 74 -Policy: default
+0020: 2d 73 72 63 20 27 6e 6f 6e 65 27 0d 0a          -src 'none'..
+<= Recv header, 73 bytes (0x49)
+0000: 53 74 72 69 63 74 2d 54 72 61 6e 73 70 6f 72 74 Strict-Transport
+0010: 2d 53 65 63 75 72 69 74 79 3a 20 6d 61 78 2d 61 -Security: max-a
+0020: 67 65 3d 33 31 35 33 36 30 30 30 3b 20 69 6e 63 ge=31536000; inc
+0030: 6c 75 64 65 53 75 62 64 6f 6d 61 69 6e 73 3b 20 ludeSubdomains; 
+0040: 70 72 65 6c 6f 61 64 0d 0a                      preload..
+<= Recv header, 33 bytes (0x21)
+0000: 58 2d 43 6f 6e 74 65 6e 74 2d 54 79 70 65 2d 4f X-Content-Type-O
+0010: 70 74 69 6f 6e 73 3a 20 6e 6f 73 6e 69 66 66 0d ptions: nosniff.
+0020: 0a                                              .
+<= Recv header, 23 bytes (0x17)
+0000: 58 2d 46 72 61 6d 65 2d 4f 70 74 69 6f 6e 73 3a X-Frame-Options:
+0010: 20 64 65 6e 79 0d 0a                             deny..
+<= Recv header, 33 bytes (0x21)
+0000: 58 2d 58 53 53 2d 50 72 6f 74 65 63 74 69 6f 6e X-XSS-Protection
+0010: 3a 20 31 3b 20 6d 6f 64 65 3d 62 6c 6f 63 6b 0d : 1; mode=block.
+0020: 0a                                              .
+<= Recv header, 54 bytes (0x36)
+0000: 58 2d 47 69 74 48 75 62 2d 52 65 71 75 65 73 74 X-GitHub-Request
+0010: 2d 49 64 3a 20 35 30 30 30 41 37 38 39 3a 31 36 -Id: 5000A789:16
+0020: 30 32 33 3a 31 45 46 31 43 37 45 3a 35 36 42 31 023:1EF1C7E:56B1
+0030: 35 44 46 43 0d 0a                               5DFC..
+<= Recv header, 2 bytes (0x2)
+0000: 0d 0a                                           ..
+<= Recv data, 101 bytes (0x65)
+0000: 7b 0a 20 20 22 6d 65 73 73 61 67 65 22 3a 20 22 {.  "message": "
+0010: 52 65 71 75 69 72 65 73 20 61 75 74 68 65 6e 74 Requires authent
+0020: 69 63 61 74 69 6f 6e 22 2c 0a 20 20 22 64 6f 63 ication",.  "doc
+0030: 75 6d 65 6e 74 61 74 69 6f 6e 5f 75 72 6c 22 3a umentation_url":
+0040: 20 22 68 74 74 70 73 3a 2f 2f 64 65 76 65 6c 6f  "https://develo
+0050: 70 65 72 2e 67 69 74 68 75 62 2e 63 6f 6d 2f 76 per.github.com/v
+0060: 33 22 0a 7d 0a                                  3".}.
+== Info: Connection #1 to host api.github.com left intact

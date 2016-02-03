@@ -1,0 +1,74 @@
+{
+    "tasks": {
+        "word2vec": {
+            "likelihood": "GAUSSIAN", 
+            "main-file": "experiment.py", 
+            "type": "OBJECTIVE", 
+            "resources": [
+                "local"
+            ]
+        }
+    }, 
+    "polling-time": 1, 
+    "language": "PYTHON", 
+    "variables": {
+        "lr": {
+            "max": 10, 
+            "min": 5, 
+            "type": "INT", 
+            "size": 1
+        }, 
+        "lstm_size": {
+            "max": 60, 
+            "min": 1, 
+            "type": "INT", 
+            "size": 1
+        }, 
+        "negs": {
+            "max": 20,
+            "min": 2, 
+            "type": "INT", 
+            "size": 1
+        }, 
+        "ngrams": {
+            "max": 3, 
+            "min": 1, 
+            "type": "INT", 
+            "size": 1
+        }, 
+        "min_count": {
+            "max": 6, 
+            "min": 0, 
+            "type": "INT", 
+            "size": 1
+        }, 
+        "size": {
+            "max": 60, 
+            "min": 1, 
+            "type": "INT", 
+            "size": 1
+        },
+	"hidsize": {
+            "max": 10, 
+            "min": 1, 
+            "type": "INT", 
+            "size": 1
+        },
+	"trainable": {
+            "max": 1, 
+            "min": 0, 
+            "type": "INT", 
+            "size": 1
+        }
+    }, 
+    "experiment-name": "cw_simulation",
+    "dataset": "clc_with_grammaticals",
+    "resources": {
+        "local": {
+            "max-finished-jobs": 100, 
+            "max-concurrent": 1, 
+            "scheduler": "local"
+        }
+    }, 
+    "description": ""
+}
