@@ -18,6 +18,19 @@ experiment.save()
 
 ```
 
+### Setup experiment ###
+
+In order to setup a new simulation you need to sub-class from the `Simulation` class (or any child of it), define the `experiment_name` class attribute (so that it can be found) and fill in the `cleanParameters`, `constraints` and `run` methods.
+
+```Python
+
+class Example(Simulation):
+
+experiment_name = 'example_experiment'
+
+```
+
+
 
 ### Clean parameters ###
 
@@ -28,4 +41,11 @@ Spearmint can pass . Problems with that is
 def cleanParameters(self):
 	self.x = self.negexp(self.x)  # 10 ** -x
 	self.y = self.xn(self.y, 5)  # 5 * x
+```
+
+### Add constraints (optional) ###
+
+```Python
+def constraints(self):
+	return (self.x + self.y) < 10  # x + y < 10
 ```
