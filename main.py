@@ -14,8 +14,5 @@ def main(job_id, params):
     logger.info('Using model %s' % params['experiment_name'])
     simulation = getModel(params['experiment_name'])(**params)
     logger.info('Starting training ...')
-    vecs = simulation.run(dataset)
-    logger.info('Getting scores')
-    score = simulation.getScores(vecs, dataset.scores)
-    logger.info('Score was: %f' % score)
+    score = simulation.run(dataset)
     return score

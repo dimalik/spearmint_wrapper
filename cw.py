@@ -1,7 +1,7 @@
-from simulation import VectorScoringSimulation
+from simulation import Simulation
 
 
-class CWSimulation(VectorScoringSimulation):
+class Example(Simulation):
 
     experiment_name = ''
 

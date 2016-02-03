@@ -1,7 +1,7 @@
 import sys
 import json
 
-PATH = '/home/dimitris/Projects/aes/scripts'
+PATH = ''
 sys.path.insert(0, PATH)
 
 
