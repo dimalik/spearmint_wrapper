@@ -33,7 +33,7 @@ class Example(Simulation):
 ### Clean parameters ###
 
 Spearmint can pass . Problems with that is
-all the parameters listed in the `config.json` file are passed as instance attributes. For example, if you have an ![g](http%3A%2F%2Fwww.sciweavers.org%2Ftex2img.php%3Feq%3D%2520%255Ceta%2520%26bc%3DWhite%26fc%3DBlack%26im%3Djpg%26fs%3D12%26ff%3Darev%26edit%3D0)
+all the parameters listed in the `config.json` file are passed as instance attributes. For example, if you have an ![g](http://www.sciweavers.org/tex2img.php?eq%3D%2520%255Ceta%2520%26bc%3DWhite%26fc%3DBlack%26im%3Djpg%26fs%3D12%26ff%3Darev%26edit%3D0)
 
 ```Python
 def cleanParameters(self):
